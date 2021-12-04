@@ -1,0 +1,54 @@
+/* Global */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $font-family-body;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+//Using the BEM (Block Element Modifier) naming convention, element class names are derived by adding two underscores, followed by the element name.
+//.block__elem--mod or .block--mod
+// Block -> is a standalone entity that is meaningful on its own.
+// To form a CSS class, add a short prefix for namespacing: .block in our case it will be  .caap-block
+//element -> Parts of a block and have no standalone meaning.
+//CSS class is formed as block name plus two underscores plus element name: .block__elem
+// modifier -> is a Flags on blocks or elements. we use them to change appearance, behavior or state.
+//CSS class is formed as block’s or element’s name plus two dashes: .block--mod or .block__elem--mod
+
+//Page Level Elements Styles
+.caap-page--bg {
+  background: $bg-light;
+}
+.caap-page__logo {
+  width: 100%;
+  text-align: center;
+  margin: $spacing-0;
+}
+.caap-page__heading {
+  font-family: $font-family-heading;
+  font-weight: bold;
+  color: $heading;
+  margin: $spacing-0;
+}
+.caap-page__copy {
+  font-size: $font-size-16;
+  font-family: $font-family-heading;
+  color: $grey-70;
+  margin: $spacing-0;
+}

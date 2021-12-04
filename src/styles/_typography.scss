@@ -1,0 +1,55 @@
+///* ========================================================================
+//   #TYPOGRAPHY
+//   ======================================================================== */
+
+///* ========================================================================
+//   #HEADINGS
+//   ======================================================================== */
+
+$font-size-h0: 40px !default;
+$font-size-h1: 32px !default;
+$font-size-h2: 24px !default;
+$font-size-h3: 20px !default;
+$font-size-h4: 16px !default;
+$font-size-h5: 14px !default;
+$font-size-h6: 12px !default;
+
+
+$line-height-h0: 60px;
+$line-height-h1: 48px;
+$line-height-h2: 36px;
+$line-height-h3: 32px;
+$line-height-h4: 24px;
+$line-height-h5: 20px;
+$line-height-h6: 16px;
+
+// Corresponding HTML elements and classes.
+h1 {
+    font-size: $font-size-h1;
+    line-height: $line-height-h1;
+}
+
+h2 {
+    font-size: $font-size-h2;
+    line-height: $line-height-h2;
+}
+
+h3 {
+    font-size: $font-size-h3;
+    line-height: $line-height-h3;
+}
+
+h4 {
+    font-size: $font-size-h4;
+    line-height: $line-height-h4;
+}
+
+h5 {
+    font-size: $font-size-h5;
+    line-height: $line-height-h5;
+}
+
+h6 {
+    font-size: $font-size-h6;
+    line-height: $line-height-h6;
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'ABC Monument Grotesk';
+    src: url('../assets/fonts/ABCMonumentGrotesk-Regular.otf');
+}
+
+//uncomment this when we get Inter font
+// @font-face {
+//     font-family: 'Inter';
+//     src: url('../assets/fonts/Inter-Regular.otf');
+// }
+
+
+$font-family-ABC-Monument-Grotesk:'ABC Monument Grotesk';
+// $font-family-Inter:'Inter';
+
+// $font-family-base:  $font-family-Inter !default;
+
+$font-family-heading: 'ABC Monument Grotesk';
+$font-family-body: 'ABC Monument Grotesk';
+// $font-family-body: 'Inter';
+
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-24: 24px;
+$font-size-32: 32px;
+
+$font-weight-100: 100;
+$font-weight-200: 200;
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
