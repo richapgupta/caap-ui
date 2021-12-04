@@ -2,7 +2,7 @@ import logo from "./assets/logos/stride-logo.png";
 
 function App() {
   return (
-    <div className="caap-page--bg">
+    <div className="caap-page caap-page--with-bg">
       <h1 className="caap-page__logo">
         <img alt="" src={logo} />
       </h1>
