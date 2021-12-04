@@ -1,0 +1,20 @@
+
+//CAAP foundation
+@import './foundation/colors';
+@import './foundation/fonts';
+@import './foundation/layout';
+
+
+//CAAP global
+@import './global/normalize';
+@import './global/reset';
+@import './global/box-sizing';
+@import './global/typography';
+
+//CAAP Setting
+@import 'spacing';
+@import 'ui-styles';
+@import 'button';
+@import 'card';
+@import 'form-styles.scss';
+
