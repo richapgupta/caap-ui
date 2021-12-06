@@ -1,4 +1,5 @@
 import logo from "./assets/logos/stride-logo.png";
+import CAAPButton from "./shared-components/button/Button";
 
 function App() {
   return (
@@ -6,26 +7,39 @@ function App() {
       <h1 className="caap-page__logo">
         <img alt="" src={logo} />
       </h1>
-      {/* <img src={require('./logo.jpeg')} /> */}
-
       <div className="caap-card">
         <h3 className="caap-card__heading">Welcome back</h3>
         <p className="caap-card__copy copy--letter-spacing">
           Stride is all you need to get ahead.
         </p>
-        <button className="caap-button__solid">Login with my school</button>
+
+        <CAAPButton type="default">Hello Richa</CAAPButton>
+
+        <CAAPButton type="primary">Hello Richa</CAAPButton>
+
+        <CAAPButton type="dashed">Hello Richa</CAAPButton>
+
+        <CAAPButton type="link">Hello Richa</CAAPButton>
+
+        <CAAPButton type="primary" disabled>
+          Hello Richa
+        </CAAPButton>
+
         <p className="caap-card__copy copy--letter-spacing">
           No longer with your school ?
         </p>
-        <button className="caap-button__outline">
-          Login with username & password
-        </button>
+
+        <CAAPButton type="dashed"> Login with username & password</CAAPButton>
       </div>
 
       <div className="caap-card">
         <h3 className="caap-card__heading">Log In </h3>
         <p className="caap-card__copy">Log in into your school account</p>
-        <button className="caap-button__disabled">Clever Log In</button>
+
+        <CAAPButton type="primary" disabled>
+          Clever Log In
+        </CAAPButton>
+
         <div>
           <a href="#" className="caap-card__link">
             Log In with email

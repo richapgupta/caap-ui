@@ -1,57 +1,14 @@
-/* Global */
+// /* Global */
 
-button {
-    background: transparent;
-    margin: 0;
-    border: 0;
-    outline: 0;
-    padding: 0;
-    cursor:pointer;
+button.ant-btn {
+  cursor: pointer;
+  height: auto;
+  width: 100%;
 }
 
-// Custom Button Styles
-$width-400: 400px;
-
-.caap-button__solid, .caap-button__outline, .caap-button__disabled {
-    font-size: $font-size-14;
-    max-width: $width-400;
-    width: 100%;
-}
-
-.caap-button__solid {
-    background: $primary-100;
-    color: $white-100;
-    padding: $spacing-12;
-    margin: $spacing-32 $spacing-0;
-    border: none;
-    font-weight: $font-weight-500;
-}
-.caap-button__solid:hover {
-        background: $button-hover;
-    }
-
-
-.caap-button__outline {
-    border: 1px solid $primary-100;
-    background: $white-100;
-    color: $primary-100;
-    font-weight: $font-weight-500;
-    margin: $spacing-32 $spacing-0;
-    padding: $spacing-12;
-}
-
-.caap-button__disabled {
-    padding: $spacing-10 $spacing-20;
-    background: $button-disabled;
-    border: none;
-    border-radius: 6px;
-    margin: $spacing-24 $spacing-0;
-    color: $button-text-disabled;
-}
-
-.caap-button__solid--rounded-border {
-    font-size: $font-size-14;
-    background: $primary-100;
-    color: $white-100;
-     padding: $spacing-10 $spacing-20;
+.ant-btn > span {
+  display: block;
+  width: 100%;
+  font-size: $font-size-16;
+  line-height: $line-height-h4;
 }

@@ -3,6 +3,8 @@
 @import './foundation/colors';
 @import './foundation/fonts';
 @import './foundation/layout';
+@import './foundation/settings';
+
 
 
 //CAAP global
@@ -11,10 +13,11 @@
 @import './global/box-sizing';
 @import './global/typography';
 
+
 //CAAP Setting
 @import 'spacing';
 @import 'ui-styles';
 @import 'button';
 @import 'card';
-@import 'form-styles.scss';
+@import 'form.scss';
 

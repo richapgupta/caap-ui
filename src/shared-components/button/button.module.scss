@@ -1,0 +1,79 @@
+/* Global */
+@import "../../styles/base";
+
+// variables
+$btn-max-width: 400px;
+
+.caap-button {
+  max-width: $btn-max-width;
+  width: 100%;
+  padding: $spacing-12;
+  font-weight: $font-weight-500;
+  color: $white-100;
+}
+
+.caap-button--solid {
+  background: $primary-100;
+
+  margin: $spacing-32 $spacing-0;
+  height: auto;
+  border: 0;
+}
+.caap-button--solid:hover,
+.caap-button--solid:focus,
+.caap-button--solid:active {
+  background: $button-hover;
+  color: $white-100;
+}
+
+.caap-button--outline {
+  border: 1px solid $primary-100;
+  background: $white-100;
+  color: $primary-100;
+  margin: $spacing-32 $spacing-0;
+}
+
+.caap-button--outline:hover,
+.caap-button--outline:focus,
+.caap-button--outline:active {
+  background: $button-hover;
+  color: $white-100;
+}
+
+.caap-button--rounded[disabled] {
+  padding: $spacing-10 $spacing-20;
+  background: $button-disabled;
+  border: none;
+  border-radius: 6px;
+  margin: $spacing-24 $spacing-0;
+  color: $button-text-disabled;
+}
+
+.caap-button--rounded {
+  background: $primary-50;
+  padding: $spacing-10 $spacing-20;
+  font-weight: $font-weight-400;
+  border-radius: 6px;
+}
+
+.caap-button--rounded:hover,
+.caap-button--rounded:focus,
+.caap-button--rounded:active {
+  background: $button-hover;
+  color: $white-100;
+}
+
+.caap-button--link {
+  font-family: $font-family-heading;
+  color: $primary-100;
+  text-decoration: none;
+  border: 0;
+  box-shadow: unset;
+  padding: $spacing-10 $spacing-20;
+}
+
+.caap-button--link:hover,
+.caap-button--link:focus,
+.caap-button--link:active {
+  color: $primary-100;
+}
